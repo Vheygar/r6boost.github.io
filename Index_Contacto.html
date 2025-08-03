@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+
+
+
+<head>
+   <link rel="stylesheet" href="Index_Contacto_Style.css">
+</head>
+
+
+
+<body class="webp" data-wh-webp="true">
+
+  <div class="d-flex-column gap-10 height-max-content top_navbar">
+    <div class="d-flex-row space-between nav_items">
+      <div class="d-flex-row gap-36 justify-start width-max-content main_navigation">
+        <!-- Aquí podrían ir enlaces de navegación principales -->
+      </div>
+
+      <div class="d-flex-row justify-end width-max-content gap-24 navbar_navigation">
+        <div class="lang_selector">
+          <div class="dropdown">
+            <button id="langToggleBtn" class="lang_btn" style="padding: 3px 12px;">
+              <img src="Fotos/SPAIN.png" alt="Selected language" class="language_image" style="width: 40px;" />
+            </button>
+            <div id="dropdownContent" class="dropdown-content" style="display: none;">
+              <div class="dropdown-header">Selecionar Idioma</div>
+              <a href="Index_Contacto_en.html" class="lang_option" data-lang="en">
+                <img src="Fotos/America.png" class="icon" alt="English" />
+                Inglés
+              </a>
+              <a href="Index_Contacto.html" class="lang_option" data-lang="es">
+                <img src="Fotos/SPAIN.png" class="icon" alt="Español" />
+                Español
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="__nuxt">
+    <div>
+      <div class="safe-area-bg"></div>
+
+      <section class="main_layout">
+        <div class="main_layout_page d-flex-column justify-start">
+          <div class="d-flex-column align-start" style="margin-top:30px; margin-bottom:30px;">
+            <div class="d-flex-column justify-start align-start gap-60">
+              <div class="d-flex align-start gap-18 contact_banner">
+                <!-- Columna izquierda: icono, texto y botón -->
+                <div class="text-content">
+                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <path
+                      d="M16.1391 3.45907L7.10914 6.45907C1.03914 8.48907 1.03914 11.7991 7.10914 13.8191L9.78914 14.7091L10.6791 17.3891C12.6991 23.4591 16.0191 23.4591 18.0391 17.3891L21.0491 8.36907C22.3891 4.31907 20.1891 2.10907 16.1391 3.45907ZM16.4591 8.83907L12.6591 12.6591C12.5091 12.8091 12.3191 12.8791 12.1291 12.8791C11.9391 12.8791 11.7491 12.8091 11.5991 12.6591C11.3091 12.3691 11.3091 11.8891 11.5991 11.5991L15.3991 7.77907C15.6891 7.48907 16.1691 7.48907 16.4591 7.77907C16.7491 8.06907 16.7491 8.54907 16.4591 8.83907Z"
+                      fill="#FF9E48"></path>
+                  </svg>
+
+                  <h1 class="title-h1 t-white font-family-1 f-w-600">Contáctanos</h1>
+
+                  <p class="t-light font-family-2 regular-xxl" style="max-width: 50ch;">
+                    Haz clic en el botón a continuación para chatear con nuestro Equipo de Soporte o contáctanos a
+                    través del formulario en esta página.
+                  </p>
+                </div>
+
+                <!-- Columna derecha: imagen -->
+                <div class="image-container">
+                  <img src="./Fotos/contact_banner_bg.webp" alt="Decoración" />
+                </div>
+              </div>
+
+              <div class="d-flex-row space-between lg-row-to-col gap-48" style="margin-top: 30px;">
+                <!-- Card Chat de Soporte -->
+                <div class="d-flex-column contact_card flex-5 gap-12" role="region" aria-label="Chat de soporte">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="top-left">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="top-right">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="bottom-left">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="bottom-right">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+
+                  <img src="./Fotos/support_chat.webp" alt="Imagen chat de soporte" height="90" width="90"
+                    class="contact_card_image" />
+
+                  <h5 class="t-white font-family-1 regular-xxxl f-w-600">Chat de Soporte</h5>
+                  <p class="t-light regular-xl font-family-2">
+                    ¡Nuestro Equipo de Soporte está disponible 24/7 todos los días! Haz clic aquí para chatear con
+                    nosotros.
+                  </p>
+                  <a href="https://discord.gg/yNmPB7rkWW"
+                    class="primary outlined-color xl height-48 full-width max-width-213px b-radius-9 regular-l f-w-600 font-family-1"
+                    style="margin-top: 12px;">
+                    Hablemos
+                  </a>
+                </div>
+
+                <!-- Card Socios -->
+                <div class="d-flex-column contact_card flex-5 gap-12" role="region" aria-label="Socios">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="top-left">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="top-right">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="bottom-left">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="bottom-right">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H14V2H2V14H0V0Z" fill="#27292B"></path>
+                  </svg>
+
+                  <img src="./Fotos/partnership.webp" alt="Imagen socios" height="90" width="90"
+                    class="contact_card_image" />
+
+                  <h5 class="t-white font-family-1 regular-xxxl f-w-600">Socios</h5>
+                  <p class="t-light regular-xl font-family-2">
+                    ¿Listo para ser parte del equipo? Si eres un creador de contenido, envíanos un correo.
+                  </p>
+                  <a href="https://discord.gg/yNmPB7rkWW" target="_blank" rel="noreferrer"
+                    class="primary outlined-color xl height-48 full-width max-width-213px b-radius-9 regular-l f-w-600 font-family-1"
+                    style="margin-top: 12px;">
+                    Conviértete en socio
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section aria-label="Notifications" tabindex="-1" aria-live="polite" aria-relevant="additions text"
+      aria-atomic="false">
+      <ol data-sonner-toaster="" class="" dir="ltr" tabindex="-1" data-theme="dark" data-rich-colors="false"
+        data-y-position="bottom" data-x-position="right" data-lifted="false"
+        style="--front-toast-height:undefinedpx;--offset:32px;--width:356px;--gap:14px;">
+        <!-- Notificaciones dinámicas -->
+      </ol>
+    </section>
+  </div>
+
+  <div id="teleports"></div>
+
+  <script>
+    const toggleBtn = document.getElementById('langToggleBtn');
+    const dropdown = document.getElementById('dropdownContent');
+
+    toggleBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+    });
+
+    document.addEventListener('click', function () {
+      dropdown.style.display = 'none';
+    });
+
+    // Cambiar imagen al seleccionar idioma
+    document.querySelectorAll('.lang_option').forEach(button => {
+      button.addEventListener('click', function () {
+        const selectedLang = this.getAttribute('data-lang');
+        const imgSrc = this.querySelector('img').src;
+        toggleBtn.querySelector('img').src = imgSrc;
+
+        // Aquí podrías agregar más lógica, como redirección o guardar idioma
+        console.log('Idioma seleccionado:', selectedLang);
+
+        dropdown.style.display = 'none';
+      });
+    });
+  </script>
+
+</body>
+
+</html>
