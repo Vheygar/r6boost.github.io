@@ -1,0 +1,87 @@
+<svg
+    width="36"
+    height="37"
+    viewBox="0 0 36 37"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <g filter="url(#filter0_b_3669_2294)">
+        <rect
+            y="0.191406"
+            width="36"
+            height="36"
+            rx="10.5"
+            fill="white"
+            fill-opacity="0.04"
+        />
+        <rect
+            x="0.5"
+            y="0.691406"
+            width="35"
+            height="35"
+            rx="10"
+            stroke="url(#paint0_linear_3669_2294)"
+            stroke-opacity="0.4"
+        />
+        <rect
+            x="0.5"
+            y="0.691406"
+            width="35"
+            height="35"
+            rx="10"
+            stroke="url(#paint1_linear_3669_2294)"
+            stroke-opacity="0.4"
+        />
+        <path
+            d="M19.3197 27.1914V18.1904H21.6864L22 15.0885H19.3197L19.3237 13.5361C19.3237 12.7271 19.3969 12.2936 20.5037 12.2936H21.9832V9.19141H19.6162C16.773 9.19141 15.7723 10.6961 15.7723 13.2266V15.0889H14V18.1907H15.7723V27.1914H19.3197Z"
+            fill="#FF9E48"
+        />
+    </g>
+    <defs>
+        <filter
+            id="filter0_b_3669_2294"
+            x="-75"
+            y="-74.8086"
+            width="186"
+            height="186"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+        >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feGaussianBlur in="BackgroundImageFix" stdDeviation="37.5" />
+            <feComposite
+                in2="SourceAlpha"
+                operator="in"
+                result="effect1_backgroundBlur_3669_2294"
+            />
+            <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect1_backgroundBlur_3669_2294"
+                result="shape"
+            />
+        </filter>
+        <linearGradient
+            id="paint0_linear_3669_2294"
+            x1="10.5763"
+            y1="-1.216"
+            x2="22.4073"
+            y2="16.8798"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient
+            id="paint1_linear_3669_2294"
+            x1="34.2891"
+            y1="34.8909"
+            x2="28.9042"
+            y2="29.8768"
+            gradientUnits="userSpaceOnUse"
+        >
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+    </defs>
+</svg>
